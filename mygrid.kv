@@ -1,0 +1,56 @@
+<MyGrid>:
+
+    GridLayout:
+        cols: 2
+        padding: 20
+        spacing: 20
+
+        GridLayout:
+            cols: 1
+            padding: 20
+            spacing: 20
+
+            Label:
+                text: 'Witaj w Clusterix'
+
+            Label:
+                text: 'Jest to program służący do analizy skupień \n za pomocą wybpranych przez Ciebie metod. \nPo przeprowadzeniu analizy otrzymasz graficzną \nreprezentację swoich danych w formie wykresu \nlub gotowego raportu,'
+                color: 1,1,1,1
+                canvas.before:
+                    Color:
+                        rgba: 0.3, 0.3, 0.3,.6
+                    Rectangle:
+                        pos: self.pos
+                        size: self.size
+
+
+            Label:
+                text: 'Analiza'
+
+                Button:
+                    text: 'Start analizy'
+                    background_color: (0.3, 0.3, 0.3,.6)
+
+            Label:
+                text: 'Dane do raportu'
+
+                Button:
+                    text: 'Utwórz'
+                    background_color: (0.3, 0.3, 0.3,.6)
+
+        GridLayout:
+            cols: 1
+            padding: 20
+            spacing: 20
+            Label:
+                text: 'Podgląd'
+
+                Button:
+                    text: 'Zapisz'
+                    background_color: (0.3, 0.3, 0.3,.6)
+                Button:
+                    text: 'Drukuj'
+                    background_color: (0.3, 0.3, 0.3,.6)
+                Button:
+                    text: 'Nowa sesja'
+                    background_color: (0.3, 0.3, 0.3,.6)
