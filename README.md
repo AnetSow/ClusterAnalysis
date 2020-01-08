@@ -8,10 +8,13 @@ Install dependecies:
 ```
 pip install numpy
 pip install pandas
+pip install PyQt5
+pip install sklearn
+
 ```
 Copy `.csv` file to project folder 
 
 Run program by: 
 ```
-python modul1_final.py
+python Window.py
 ```
