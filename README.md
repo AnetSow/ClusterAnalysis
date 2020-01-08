@@ -18,3 +18,7 @@ Run program by:
 ```
 python Window.py
 ```
+
+## Dataset used in a draft of application
+
+'Iris' is a set of measurements of iris flowers, made available for the first time in 1936 by Ronald Fisher. Is one of the most popular collections. It consists of 4 measurement values: Sepal length, Sepal width, Petal length, Petal width and the class to which it belongs (Iris-setosa, Iris-versicolor, Iris-virginica).
